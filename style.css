@@ -1,25 +1,26 @@
 @charset "utf-8";
 
+:root {
+  --brand-color: skyblue;
+}
+
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-  ;
 }
 
 section {
-  border: solid 1px lightgray;
-  width: 400px;
-  margin: 32px auto 0;
-  border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto;
+  width: calc(100% - 16px - 16px);
 }
 
 h1 {
-  background-color: skyblue;
   margin: 0;
+  color: var(--brand-color);
+  border-bottom: 2px solid var(--brand-color);
 }
 
 p {
-  background-color: pink;
   margin: 0;
-  line-height: 1.6;
+
 }
